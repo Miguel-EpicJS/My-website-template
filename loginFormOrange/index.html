@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Login | Registration</title>
+</head>
+<body>  
+    <div class="hero">
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="fb.png" alt="">
+                <img src="gp.png" alt="">
+                <img src="tw.png" alt="">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id " required>
+                <input type="password" class="input-field" placeholder="Enter password " required>
+                <input type="checkbox" class="check-box" placeholder="User Id "> <span>Remember password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id " required>
+                <input type="email" class="input-field" placeholder="Email Id " required>
+                <input type="password" class="input-field" placeholder="Enter password " required>
+                <input type="checkbox" class="check-box" placeholder="User Id " required> <span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const x = document.getElementById('login');
+        const y = document.getElementById('register');
+        const z = document.getElementById('btn');
+
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+</body>
+</html>
