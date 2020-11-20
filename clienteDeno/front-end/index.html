@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="subcontainer">
+            <div class="row">
+                <div class="col">
+                    <div class="options">
+                        <div class="btns">
+                            <button type="button" onclick="location.href='#get';"><h3>Ver Cliente</h3></button>
+                            <button type="button" onclick="location.href='#post';"><h3>Criar Cliente</h3></button>
+                            <button type="button" onclick="location.href='#put';"><h3>Alterar Cliente</h3></button>
+                            <button type="button" onclick="location.href='#delete';"><h3>Deletar Cliente</h3></button>
+                        </div>
+                        <div id="get">
+                            <label for="">Coloque o ID do cliente</label>
+                            <input type="text" placeholder="deixe vazio pegar todos" id="getSubmit">
+                            <button type="button" onclick="getSubmit()"><h2>Enviar</h2></button>
+                        </div>
+                        <div id="post">
+                            <label for="">Coloque o nome do novo cliente</label>
+                            <input type="text" required id="postNome">
+                            <label for="">Coloque o preço da encomenda</label>
+                            <input type="text" required id="postPrice">
+                            <label for="">Coloque a data da entrega</label>
+                            <input type="text" required id="postDate">
+                            <label for="">Coloque alguma anotação aqui(local de entrega)</label>
+                            <input type="text" required id="postDesc">
+                            <button type="button" onclick="postSubmit()"><h2>Enviar</h2></button>
+                        </div>
+                        <div id="put">
+                            <label for="" >Coloque o ID do cliente</label>
+                            <input type="text" required id="putId">
+                            <label for="">Coloque o novo nome do cliente</label>
+                            <input type="text" required id="putNome">
+                            <label for="">Coloque o novo preço da encomenda</label>
+                            <input type="text" required id="putPrice">
+                            <label for="">Coloque a nova data da entrega</label>
+                            <input type="text" required id="putDate">
+                            <label for="">Coloque uma nova anotação aqui(local de entrega)</label>
+                            <input type="text" required id="putDesc">
+                            <button type="button" onclick="putSubmit()"><h2>Enviar</h2></button>
+                        </div>
+                        <div id="delete">
+                            <label for="">Coloque o ID do cliente</label>
+                            <input type="text" placeholder="AVISO: você ira deleta-lo e será irrecuperavel" id="deleteId" required>
+                            <button type="button" onclick="deleteSubmit()"><h2>Enviar</h2></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="response">
+                        <div class="cards">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
