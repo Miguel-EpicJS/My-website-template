@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My simple blog template</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="btn-container">
+            <button type="button" class="btn" id="btnCreate">Create Blog Post</button>
+            <button type="button" class="btn" id="btnRead">Read Blog Post</button>
+            <button type="button" class="btn" id="btnUpdate">Update Blog Post</button>
+            <button type="button" class="btn" id="btnDelete">Delete Blog Post</button>
+        </div>
+        <div class="container-border">
+            <div class="container-crud">
+                <div class="create-container form-layout">
+                    <label for="title-create">Title</label>
+                    <input type="text" id="title-create">
+                    <label for="info-create">Info</label>
+                    <input type="text"  id="info-create">
+                    <label for="desc-create">Description</label>
+                    <textarea name="desc-create" id="desc-create" cols="30" rows="10"></textarea>
+                    <label for="article-create">Article</label>
+                    <textarea name="article-create" id="article-create" cols="30" rows="10"></textarea>
+                    <button type="button" class="btn small" id="submit-create">Create</button>
+                </div>
+                <div class="read-container none">
+                    <div id="cards">
+                        
+                    </div>
+                </div>
+                <div class="update-container form-layout none">
+                    <label for="id-update">ID</label>
+                    <input type="text" id="id-update">
+                    <label for="title-update">Title</label>
+                    <input type="text" id="title-update">
+                    <label for="info-update">Info</label>
+                    <input type="text" id="info-update">
+                    <label for="desc-update">Description</label>
+                    <textarea name="desc-update" id="desc-update" cols="30" rows="10"></textarea>
+                    <label for="article-update">Article</label>
+                    <textarea name="article-update" id="article-update" cols="30" rows="10"></textarea>
+                    <button type="button" class="btn" id="submit-update">Update</button>
+                </div>
+                <div class="delete-container form-layout none">
+                    <label for="id-delete">ID</label>
+                    <input type="text" id="id-delete">
+                    <button type="button" class="btn" id="submit-delete">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
