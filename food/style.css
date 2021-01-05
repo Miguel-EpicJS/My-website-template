@@ -61,3 +61,11 @@ h1 span::before {
     margin: 2em -1em 0;
     padding: 2em;
 }
+
+label{
+    color: #2D7D98;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
