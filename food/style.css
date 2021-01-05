@@ -22,3 +22,7 @@ header{
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+section{
+    margin: 0 1em;
+}
