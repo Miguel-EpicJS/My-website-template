@@ -7,6 +7,7 @@ body{
 
 .hero-bg{
     background: #307D99 url('https://coursetro.s3.amazonaws.com/tutorial_images/bg.jpg');
+    background-position: 12% 83%;
     color: white;
     text-align: center;
     padding-bottom: 4em;
