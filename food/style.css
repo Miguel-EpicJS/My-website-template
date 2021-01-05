@@ -69,3 +69,11 @@ label{
     margin-bottom: 1em;
     font-size: 1.2em;
 }
+
+input[type=text]{
+    border: 1px solid #707070;
+    width: 100%;
+    padding: 1em;
+    border-radius: .5em;
+    margin-top: 1.2em;
+}
