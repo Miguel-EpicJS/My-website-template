@@ -77,3 +77,11 @@ input[type=text]{
     border-radius: .5em;
     margin-top: 1.2em;
 }
+
+.form-container p{
+    color: gray;
+    margin-bottom: 1.5em;
+    font-weight: normal;
+    font-size: .9em;
+    margin-top: .3em;
+}
