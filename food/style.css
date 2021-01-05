@@ -26,3 +26,8 @@ header{
 section{
     margin: 0 1em;
 }
+
+h1{
+    font-size: 2.5rem;
+    margin: 2em 0 1.2em;
+}
