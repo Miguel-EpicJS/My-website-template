@@ -15,3 +15,10 @@ body{
 header{
     padding: 1em 0;
 }
+
+.hero-bg a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
