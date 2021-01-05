@@ -4,3 +4,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+
+.hero-bg{
+    background: #307D99 url('https://coursetro.s3.amazonaws.com/tutorial_images/bg.jpg');
+    color: white;
+    text-align: center;
+    padding-bottom: 4em;
+}
