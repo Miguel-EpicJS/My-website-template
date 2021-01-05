@@ -98,3 +98,7 @@ input[type=button]{
     font-size: 1.3em;
     cursor: pointer;
 }
+
+input[type=button]:hover{
+    background: #D79101;
+}
