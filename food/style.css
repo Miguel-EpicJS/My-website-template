@@ -55,3 +55,9 @@ h1 span::before {
     font-weight: bold;
     margin: 0 1em 3em;
 }
+
+.form-container{
+    background-color: white;
+    margin: 2em -1em 0;
+    padding: 2em;
+}
