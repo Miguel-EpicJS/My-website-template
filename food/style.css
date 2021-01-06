@@ -163,4 +163,11 @@ p{
     .hero-bg section{
         width: 65%;
     }
+
+    .form-container{
+        margin: 2em 0 0 ;
+        padding: 2em;
+        border-radius: 3em;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    }
 }
