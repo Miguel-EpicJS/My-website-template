@@ -107,3 +107,7 @@ input[type=button]:hover{
 .authentic{
     margin: 0;
 }
+
+img{
+    width: 100%;
+}
