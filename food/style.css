@@ -155,4 +155,8 @@ p{
     .hero-bg{
         text-align: left;
     }
+
+    .hero-bg p{
+        margin: 0 0 3em;
+    }
 }
