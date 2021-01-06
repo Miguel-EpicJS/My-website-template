@@ -140,3 +140,7 @@ h2::before{
 p{
     line-height: var(--leading);
 }
+
+@media (min-width: 730px){
+    
+}
