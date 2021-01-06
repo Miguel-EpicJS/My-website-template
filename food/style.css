@@ -142,5 +142,8 @@ p{
 }
 
 @media (min-width: 730px){
+    section{
+        margin: 0 4em;
+    }
     
 }
