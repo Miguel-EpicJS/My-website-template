@@ -193,4 +193,20 @@ p{
     .hero-bg p{
         margin-bottom: 0;
     }
+
+    section.authentic{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: "bowl content";
+    }
+
+    .right-col{
+        grid-area: content;
+        padding: 0 10%;
+        text-align: left;
+        align-items: center;
+    }
+    img{
+        grid-area: bowl;
+    }
 }
