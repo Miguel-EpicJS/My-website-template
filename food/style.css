@@ -159,4 +159,8 @@ p{
     .hero-bg p{
         margin: 0 0 3em;
     }
+
+    .hero-bg section{
+        width: 65%;
+    }
 }
