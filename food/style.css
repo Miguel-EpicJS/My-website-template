@@ -108,6 +108,11 @@ input[type=button]:hover{
     margin: 0;
 }
 
+.right-col{
+    text-align: center;
+    margin: 3em 1em;
+}
+
 img{
     width: 100%;
 }
