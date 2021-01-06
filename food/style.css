@@ -189,4 +189,8 @@ p{
         padding: .7em 0;
         width: 30%;
     }
+
+    .hero-bg p{
+        margin-bottom: 0;
+    }
 }
