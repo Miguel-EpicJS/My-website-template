@@ -152,5 +152,7 @@ p{
 }
 
 @media (min-width: 930px) {
-    
+    .hero-bg{
+        text-align: left;
+    }
 }
