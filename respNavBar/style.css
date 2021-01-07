@@ -14,3 +14,10 @@ nav{
     background: #5d4954;
     font-family: 'Poppins', sans-serif;
 }
+
+.logo{
+    color: rgb(197, 197, 197);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
