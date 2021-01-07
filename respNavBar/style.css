@@ -66,4 +66,7 @@ nav ul a:hover{
         font-size: 1.5rem;
         transform: translateX(100%);
     }
+    nav ul li{
+        opacity: 0;
+    }
 }
