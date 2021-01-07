@@ -49,3 +49,7 @@ nav ul a:hover{
     background-color: rgb(197, 197, 197);
     margin: 5px;
 }
+
+@media screen and (max-width:768px){
+    
+}
