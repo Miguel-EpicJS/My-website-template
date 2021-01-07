@@ -38,3 +38,10 @@ nav ul a{
 nav ul a:hover{
     color: rgb(236, 236, 236);
 }
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(197, 197, 197);
+    margin: 5px;
+}
