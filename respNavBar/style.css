@@ -39,6 +39,10 @@ nav ul a:hover{
     color: rgb(236, 236, 236);
 }
 
+.burger{
+    display: none;
+}
+
 .burger div{
     width: 25px;
     height: 5px;
