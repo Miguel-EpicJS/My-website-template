@@ -70,6 +70,9 @@ nav ul a:hover{
     }
     nav ul li{
         opacity: 0;
+        transition-delay: .8s;
+        transition-duration: .5s;
+        transition-property: all;
     }
     .burger{
         display: block;
@@ -79,4 +82,7 @@ nav ul a:hover{
 
 .nav-active{
     transform: translateX(0%);
+}
+.nav-active li{
+    opacity: 1;
 }
