@@ -69,4 +69,8 @@ nav ul a:hover{
     nav ul li{
         opacity: 0;
     }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
 }
