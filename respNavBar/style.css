@@ -65,6 +65,7 @@ nav ul a:hover{
         width: 100%;
         font-size: 1.5rem;
         transform: translateX(100%);
+        transition: transform .5s ease-in;
     }
     nav ul li{
         opacity: 0;
@@ -73,4 +74,8 @@ nav ul a:hover{
         display: block;
         cursor: pointer;
     }
+}
+
+.nav-active{
+    transform: translateX(0%);
 }
